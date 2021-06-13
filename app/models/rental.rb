@@ -22,4 +22,8 @@
 class Rental < ApplicationRecord
   belongs_to :user
   belongs_to :book
+
+  scope :now_rental, -> do
+    where(returned: false)
+  end
 end
