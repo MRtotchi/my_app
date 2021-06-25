@@ -9,7 +9,7 @@ class GoogleBooksApiService
     @request_url = BASE_URL + isbn
     
     response = open(@request_url).read
-    JSON.parse(resoinse)
+    JSON.parse(response)
   end
   
 end
