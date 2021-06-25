@@ -66,3 +66,10 @@ gem 'devise-i18n-views'
 
 #検索機能
 gem 'ransack'
+
+#bootstrap
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
+#ページング機能
+gem 'kaminari'
