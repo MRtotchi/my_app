@@ -41,7 +41,7 @@ class BooksController < ApplicationController
 
   def destroy
     @book.destroy
-    
+
     respond_to do |format|
       format.html { redirect_to books_url, notice: '書籍情報は正常に削除されました.' }
       format.json { head :no_content }
